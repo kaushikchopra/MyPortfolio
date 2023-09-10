@@ -111,7 +111,7 @@ function Projects() {
           <div className="container">
             <div className="row">
               {groupedProjects[category].map((project, index) => (
-                <div className="col-12 col-sm-6 col-md-4" key={index}>
+                <div className="col-12 col-sm-6 col-md-4 mb-4" key={index}>
                   <div
                     className={`card mb-4 project ${
                       darkMode ? "dark-mode bg-dark text-light" : ""
